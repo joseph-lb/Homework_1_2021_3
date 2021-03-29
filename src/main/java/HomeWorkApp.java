@@ -20,7 +20,6 @@ public class HomeWorkApp {
         else { System.out.println("Сумма отрицательная"); }
     }
 
-    //Задание 4
     private static void printColor() {
         int value;
         value = 25;
@@ -28,11 +27,9 @@ public class HomeWorkApp {
         else if ( value > 0 && value <= 100) { System.out.println("Желтый"); }
         else {
             System.out.println("Зеленый");
-            //ставлю else без условия, т.к. вариантов выбора больше нет и так мы исключим лишнее сравниение из кода/процедуры
         }
     }
 
-    //Задание 5
     private static void compareNumbers(){
         int a, b;
         a = 30;
